@@ -28,10 +28,17 @@ Markdown New Tab is complete with the ability to store revisions of the markdown
 ```sh
 $ git clone https://github.com/plibither8/markdown-new-tab
 ```
-2. Open Chrome and go to `chrome://extensions`
+2. Open Chrome and go to `chrome://extensions` 
 3. Enable 'Developer Mode' by checking the tickbox (on the top of the page).
 4. Click the 'Load Unpacked Extension' button and select the `dist/` folder of the cloned repository.
 5. The extension should be loaded now and the 'New Tab' page should be Markdown New Tab. 🎉
+
+### Testing in Firefox
+In Firefox the extension can be installed temporarely until you restart the browser. To do so:
+1. enter "about:debugging" in the URL bar
+2. click "Load Temporary Add-on"
+3. open the extension's directory in your local repo and select [dist/manifest.json](markdown-new-tab/dist/manifest.json)
+More info [here](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Temporary_Installation_in_Firefox).
 
 ## Usage
 
